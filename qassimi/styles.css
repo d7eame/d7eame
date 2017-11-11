@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Amiri&subset=arabic,latin);
+@import url(https://fonts.googleapis.com/earlyaccess/notokufiarabic.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notonaskharabic.css);
+h5 {
+	font-family: 'Noto Kufi Arabic', serif;
+}
+
+h3 {
+	font-family: 'Noto Kufi Arabic', verdana;
+	text-align: center;
+}
+
+p {
+	font-family: 'Amiri', 'Noto Naskh Arabic', verdana;
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+a {
+	font-family: 'Noto Naskh Arabic', verdana;
+}
+a.in {
+	font-family: 'Amiri', 'Noto Naskh Arabic', verdana;
+	text-align: justify;
+	font-size: 1.2em;
+	color: blue;
+}
+ol.in li.in {
+	font-family: 'Amiri', 'Noto Naskh Arabic', verdana;
+	text-align: justify;
+	font-size: 1.2em;
+}
+.w3-sidenav {
+	direction: rtl;
+	position: static;
+}
+
+.w3-tab {
+	direction: rtl;
+}
+
+header {
+	text-align: center;
+}
+
+@media only screen and (min-width: 1030px) {
+	.w3-row {
+		margin: 0px 150px 0px 150px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	a {
+		font-size: 1.2em;
+	}
+}
